@@ -1,3 +1,9 @@
+env.py
+env/
+local_files/
 .ipynb_checkpoints/
-*.csv
-*.xlsx
+__pycache__
+.DS_Store
+Thumbs.db
+.vscode/
+the.kids
