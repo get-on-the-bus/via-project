@@ -6,6 +6,7 @@
     1. [HTML format](https://api.census.gov/data.html)
     1. [JSON format](https://api.census.gov/data.json)
 1. [American Community Survey 5-Year Data](https://www.census.gov/data/developers/data-sets/acs-5year.html)
+    1. API Template [https://api.census.gov/data/2018/acs/acs5?get=B00001_001E&for=block%20group:*&in=state:48&in=county:029&in=tract:*](https://api.census.gov/data/2018/acs/acs5?get=B00001_001E&for=block%20group:*&in=state:48&in=county:029&in=tract:*)
 1. [Project Open Data Schema](https://project-open-data.cio.gov/schema/)
 1. [The Census Data Application Programming Interface (API)](www.census.gov/data/developers/updates/new-discovery-tool.html)
 1. [Request a Census API Key](http://api.census.gov/data/key_signup.html)
