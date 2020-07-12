@@ -40,51 +40,51 @@ B03002_018E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Hispanic or 
 B03002_019E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Hispanic or Latino|Two or more races,y,x,
 B03002_020E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Hispanic or Latino|Two or more races|Two races including Some other race,y,x,
 B03002_021E,B03002,Hispanic Or Latino Origin By Race,"Estimate|Total|Hispanic or Latino|Two or more races|Two races excluding Some other race, and three or more races",y,x,
-B08134_001E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total,y,k,trans_means_time_tot
+B08134_001E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total,y,k,commute_time_tot
 B08134_002E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Less than 10 minutes,y,m,B08134_003E_M
 B08134_003E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|10 to 14 minutes,y,m,B08134_003E_M
-B08134_003E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Less than 15 minutes,n,k,trans_means_time_tot_00_14
+B08134_003E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Less than 15 minutes,n,k,commute_time_tot_00_14
 B08134_004E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 19 minutes,y,m,B08134_006E_M
 B08134_005E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|20 to 24 minutes,y,m,B08134_006E_M
 B08134_006E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|25 to 29 minutes,y,m,B08134_006E_M
-B08134_006E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,trans_means_time_tot_15_29
+B08134_006E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,commute_time_tot_15_29
 B08134_007E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|30 to 34 minutes,y,m,B08134_009E_M
 B08134_008E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|35 to 44 minutes,y,m,B08134_009E_M
 B08134_009E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|45 to 59 minutes,y,m,B08134_009E_M
-B08134_009E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|30 to 59 minutes,n,k,trans_means_time_tot_30_59
-B08134_010E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|60 or more minutes,y,k,trans_means_time_tot_60_plus
-B08134_011E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van",y,k,trans_means_time_car
+B08134_009E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|30 to 59 minutes,n,k,commute_time_tot_30_59
+B08134_010E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|60 or more minutes,y,k,commute_time_tot_60_plus
+B08134_011E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van",y,k,commute_time_car
 B08134_012E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|Less than 10 minutes",y,m,B08134_013E_M
 B08134_013E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|10 to 14 minutes",y,m,B08134_013E_M
-B08134_013E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|Less than 15 minutes",n,k,trans_means_time_car_00_14
+B08134_013E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|Less than 15 minutes",n,k,commute_time_car_00_14
 B08134_014E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 19 minutes",y,m,B08134_016E_M
 B08134_015E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|20 to 24 minutes",y,m,B08134_016E_M
 B08134_016E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|25 to 29 minutes",y,m,B08134_016E_M
-B08134_016E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 29 minutes",n,k,trans_means_time_car_15_29
+B08134_016E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 29 minutes",n,k,commute_time_car_15_29
 B08134_017E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|30 to 34 minutes",y,m,B08134_019E_M
 B08134_018E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|35 to 44 minutes",y,m,B08134_019E_M
 B08134_019E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|45 to 59 minutes",y,m,B08134_019E_M
-B08134_019E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|30 to 59 minutes",n,k,trans_means_time_car_30_59
-B08134_020E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|60 or more minutes",y,k,trans_means_time_car_60_plus
-B08134_071E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus,y,k,trans_means_time_bus
+B08134_019E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|30 to 59 minutes",n,k,commute_time_car_30_59
+B08134_020E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|60 or more minutes",y,k,commute_time_car_60_plus
+B08134_071E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus,y,k,commute_time_bus
 B08134_072E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|Less than 10 minutes,y,m,B08134_073E_M
 B08134_073E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|10 to 14 minutes,y,m,B08134_073E_M
-B08134_073E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|Less than 15 minutes,n,k,trans_bus_time_00_14
+B08134_073E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|Less than 15 minutes,n,k,commute_time_bus_00_14
 B08134_074E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|15 to 19 minutes,y,m,B08134_076E_M
 B08134_075E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|20 to 24 minutes,y,m,B08134_076E_M
 B08134_076E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|25 to 29 minutes,y,m,B08134_076E_M
-B08134_076E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|15 to 29 minutes,n,k,trans_bus_time_15_29
+B08134_076E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|15 to 29 minutes,n,k,commute_time_bus_15_29
 B08134_077E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|30 to 34 minutes,y,m,B08134_079E_M
 B08134_078E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|35 to 44 minutes,y,m,B08134_079E_M
 B08134_079E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|45 to 59 minutes,y,m,B08134_079E_M
-B08134_079E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|30 to 59 minutes,n,k,trans_bus_time_tot_30_59
-B08134_080E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|60 or more minutes,y,k,trans_means_time_bus_60_plus
-B08301_001E,B08301,Means Of Transportation To Work,Estimate|Total,y,k,trans_means_tot
-B08301_002E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, or van",y,k,trans_car
-B08301_003E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, or van|Drove alone",y,k,trans_car_sov
-B08301_004E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, or van|Carpooled",y,k,trans_car_hov
-B08301_011E,B08301,Means Of Transportation To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus,y,k,trans_bus
-B08301_021E,B08301,Means Of Transportation To Work,Estimate|Total|Worked at home,y,k,trans_wfh
+B08134_079E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|30 to 59 minutes,n,k,commute_time_bus_30_59
+B08134_080E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus|60 or more minutes,y,k,commute_time_bus_60_plus
+B08301_001E,B08301,Means Of Transportation To Work,Estimate|Total,y,k,commute_means_tot
+B08301_002E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, or van",y,k,commute_car
+B08301_003E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, or van|Drove alone",y,k,commute_car_sov
+B08301_004E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, or van|Carpooled",y,k,commute_car_hov
+B08301_011E,B08301,Means Of Transportation To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus,y,k,commute_bus
+B08301_021E,B08301,Means Of Transportation To Work,Estimate|Total|Worked at home,y,k,commute_wfh
 B08302_001E,B08302,Time Leaving Home To Go To Work,Estimate|Total,y,k,time_leave_to_work_tot
 B08302_002E,B08302,Time Leaving Home To Go To Work,Estimate|Total|12 00 a.m. to 4 59 a.m.,y,k,time_leave_to_work_00_05
 B08302_003E,B08302,Time Leaving Home To Go To Work,Estimate|Total|5 00 a.m. to 5 29 a.m.,y,m,B08302_004E_M
@@ -105,23 +105,23 @@ B08302_013E,B08302,Time Leaving Home To Go To Work,Estimate|Total|11 00 a.m. to 
 B08302_013E_M,B08302,Time Leaving Home To Go To Work,Estimate|Total|10 00 a.m. to 10 59 a.m.,n,k,time_leave_to_work_10_12
 B08302_014E,B08302,Time Leaving Home To Go To Work,Estimate|Total|12 00 p.m. to 3 59 p.m.,y,k,time_leave_to_work_12_16
 B08302_015E,B08302,Time Leaving Home To Go To Work,Estimate|Total|4 00 p.m. to 11 59 p.m.,y,k,time_leave_to_work_16_00
-B08303_001E,B08303,Travel Time To Work,Estimate|Total,y,k,travel_time_tot
-B08303_002E,B08303,Travel Time To Work,Estimate|Total|Less than 5 minutes,y,m,B08303_004E_M
-B08303_003E,B08303,Travel Time To Work,Estimate|Total|5 to 9 minutes,y,m,B08303_004E_M
-B08303_004E,B08303,Travel Time To Work,Estimate|Total|10 to 14 minutes,y,m,B08303_004E_M
-B08303_004E_M,B08303,Travel Time To Work,Estimate|Total|1less than 15 minutes,n,k,travel_time_00_14
-B08303_005E,B08303,Travel Time To Work,Estimate|Total|15 to 19 minutes,y,m,B08303_007E_M
-B08303_006E,B08303,Travel Time To Work,Estimate|Total|20 to 24 minutes,y,m,B08303_007E_M
-B08303_007E,B08303,Travel Time To Work,Estimate|Total|25 to 29 minutes,y,m,B08303_007E_M
-B08303_007E_M,B08303,Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,travel_time_15_29
-B08303_008E,B08303,Travel Time To Work,Estimate|Total|30 to 34 minutes,y,m,B08303_011E_M
-B08303_009E,B08303,Travel Time To Work,Estimate|Total|35 to 39 minutes,y,m,B08303_011E_M
-B08303_010E,B08303,Travel Time To Work,Estimate|Total|40 to 44 minutes,y,m,B08303_011E_M
-B08303_011E,B08303,Travel Time To Work,Estimate|Total|45 to 59 minutes,y,m,B08303_011E_M
-B08303_011E_M,B08303,Travel Time To Work,Estimate|Total|30 to 59 minutes,n,k,travel_time_30_59
-B08303_012E,B08303,Travel Time To Work,Estimate|Total|60 to 89 minutes,y,m,B08303_013E_M
-B08303_013E,B08303,Travel Time To Work,Estimate|Total|90 or more minutes,y,m,B08303_013E_M
-B08303_013E_M,B08303,Travel Time To Work,Estimate|Total|60 or more minutes,n,k,travel_time_60_plus
+B08303_001E,B08303,Travel Time To Work,Estimate|Total,y,x,travel_time_tot
+B08303_002E,B08303,Travel Time To Work,Estimate|Total|Less than 5 minutes,y,x,B08303_004E_M
+B08303_003E,B08303,Travel Time To Work,Estimate|Total|5 to 9 minutes,y,x,B08303_004E_M
+B08303_004E,B08303,Travel Time To Work,Estimate|Total|10 to 14 minutes,y,x,B08303_004E_M
+B08303_004E_M,B08303,Travel Time To Work,Estimate|Total|1less than 15 minutes,n,x,travel_time_00_14
+B08303_005E,B08303,Travel Time To Work,Estimate|Total|15 to 19 minutes,y,x,B08303_007E_M
+B08303_006E,B08303,Travel Time To Work,Estimate|Total|20 to 24 minutes,y,x,B08303_007E_M
+B08303_007E,B08303,Travel Time To Work,Estimate|Total|25 to 29 minutes,y,x,B08303_007E_M
+B08303_007E_M,B08303,Travel Time To Work,Estimate|Total|15 to 29 minutes,n,x,travel_time_15_29
+B08303_008E,B08303,Travel Time To Work,Estimate|Total|30 to 34 minutes,y,x,B08303_011E_M
+B08303_009E,B08303,Travel Time To Work,Estimate|Total|35 to 39 minutes,y,x,B08303_011E_M
+B08303_010E,B08303,Travel Time To Work,Estimate|Total|40 to 44 minutes,y,x,B08303_011E_M
+B08303_011E,B08303,Travel Time To Work,Estimate|Total|45 to 59 minutes,y,x,B08303_011E_M
+B08303_011E_M,B08303,Travel Time To Work,Estimate|Total|30 to 59 minutes,n,x,travel_time_30_59
+B08303_012E,B08303,Travel Time To Work,Estimate|Total|60 to 89 minutes,y,x,B08303_013E_M
+B08303_013E,B08303,Travel Time To Work,Estimate|Total|90 or more minutes,y,x,B08303_013E_M
+B08303_013E_M,B08303,Travel Time To Work,Estimate|Total|60 or more minutes,n,x,travel_time_60_plus
 B19001_001E,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),Estimate|Total,y,k,house_ann_inc_total
 B19001_002E,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),"Estimate|Total|Less than $10,000",y,k,house_ann_inc_000_010
 B19001_003E,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),"Estimate|Total|$10,000 to $14,999",y,m,B19001_005E_M
