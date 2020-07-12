@@ -20,16 +20,16 @@ B02001_009E,B02001,Race,Estimate|Total|Two or more races|Two races including Som
 B02001_010E,B02001,Race,"Estimate|Total|Two or more races|Two races excluding Some other race, and three or more races",y,x,
 B03002_001E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total,y,k,race_tot
 B03002_002E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino,y,k,non_hisp_total
-B03002_002E_O,B03002,Hispanic Or Latino Origin By Race,Estimate |Total|Not Hispanic or Latino|Other,n,k,
+B03002_002E_O,B03002,Hispanic Or Latino Origin By Race,Estimate |Total|Not Hispanic or Latino|Other,n,k,non_hisp_oth
 B03002_003E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|White alone,y,k,race_tot_w
 B03002_004E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Black or African American alone,y,k,race_tot_b
-B03002_005E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|American Indian and Alaska Native alone,y,m,B03002_002E
+B03002_005E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|American Indian and Alaska Native alone,y,m,B03002_002E_O
 B03002_006E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Asian alone,y,k,race_tot_a
-B03002_007E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Native Hawaiian and Other Pacific Islander alone,y,m,B03002_002E
-B03002_008E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Some other race alone,y,m,B03002_002E
-B03002_009E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Two or more races,y,m,B03002_002E
-B03002_010E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Two or more races|Two races including Some other race,y,m,B03002_002E
-B03002_011E,B03002,Hispanic Or Latino Origin By Race,"Estimate|Total|Not Hispanic or Latino|Two or more races|Two races excluding Some other race, and three or more races",y,m,B03002_002E
+B03002_007E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Native Hawaiian and Other Pacific Islander alone,y,m,B03002_002E_O
+B03002_008E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Some other race alone,y,m,B03002_002E_O
+B03002_009E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Two or more races,y,m,B03002_002E_O
+B03002_010E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Not Hispanic or Latino|Two or more races|Two races including Some other race,y,x,
+B03002_011E,B03002,Hispanic Or Latino Origin By Race,"Estimate|Total|Not Hispanic or Latino|Two or more races|Two races excluding Some other race, and three or more races",y,x,
 B03002_012E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Hispanic or Latino,y,k,hisp_tot
 B03002_013E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Hispanic or Latino|White alone,y,x,
 B03002_014E,B03002,Hispanic Or Latino Origin By Race,Estimate|Total|Hispanic or Latino|Black or African American alone,y,x,
@@ -44,10 +44,10 @@ B08134_001E,B08134,Means Of Transportation To Work By Travel Time To Work,Estima
 B08134_002E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Less than 10 minutes,y,m,B08134_003E_M
 B08134_003E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|10 to 14 minutes,y,m,B08134_003E_M
 B08134_003E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|Less than 15 minutes,n,k,trans_means_time_tot_00_14
-B08134_004E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 19 minutes,y,m,B08134_005E_M
-B08134_005E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|20 to 24 minutes,y,m,B08134_005E_M
-B08134_005E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,trans_means_time_tot_15_29
-B08134_006E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|25 to 29 minutes,y,m,B08134_005E_M
+B08134_004E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 19 minutes,y,m,B08134_006E_M
+B08134_005E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|20 to 24 minutes,y,m,B08134_006E_M
+B08134_006E_M,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,trans_means_time_tot_15_29
+B08134_006E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|25 to 29 minutes,y,m,B08134_006E_M
 B08134_007E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|30 to 34 minutes,y,m,B08134_009E_M
 B08134_008E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|35 to 44 minutes,y,m,B08134_009E_M
 B08134_009E,B08134,Means Of Transportation To Work By Travel Time To Work,Estimate|Total|45 to 59 minutes,y,m,B08134_009E_M
@@ -57,10 +57,10 @@ B08134_011E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estim
 B08134_012E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|Less than 10 minutes",y,m,B08134_013E_M
 B08134_013E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|10 to 14 minutes",y,m,B08134_013E_M
 B08134_013E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|Less than 15 minutes",n,k,trans_means_time_car_00_14
-B08134_014E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 19 minutes",y,m,B08134_015E_M
-B08134_015E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|20 to 24 minutes",y,m,B08134_015E_M
-B08134_015E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 29 minutes",n,k,trans_means_time_car_15_29
-B08134_016E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|25 to 29 minutes",y,m,B08134_015E_M
+B08134_014E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 19 minutes",y,m,B08134_016E_M
+B08134_015E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|20 to 24 minutes",y,m,B08134_016E_M
+B08134_016E_M,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|15 to 29 minutes",n,k,trans_means_time_car_15_29
+B08134_016E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|25 to 29 minutes",y,m,B08134_016E_M
 B08134_017E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|30 to 34 minutes",y,m,B08134_019E_M
 B08134_018E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|35 to 44 minutes",y,m,B08134_019E_M
 B08134_019E,B08134,Means Of Transportation To Work By Travel Time To Work,"Estimate|Total|Car, truck, or van|45 to 59 minutes",y,m,B08134_019E_M
@@ -86,10 +86,10 @@ B08301_004E,B08301,Means Of Transportation To Work,"Estimate|Total|Car, truck, o
 B08301_011E,B08301,Means Of Transportation To Work,Estimate|Total|Public transportation (excluding taxicab)|Bus or trolley bus,y,k,trans_bus
 B08301_021E,B08301,Means Of Transportation To Work,Estimate|Total|Worked at home,y,k,trans_wfh
 B08302_001E,B08302,Time Leaving Home To Go To Work,Estimate|Total,y,k,time_leave_to_work_tot
-B08302_002E,B08302,Time Leaving Home To Go To Work,Estimate|Total|12 00 a.m. to 4 59 a.m.,y,m,B08302_004E_M
+B08302_002E,B08302,Time Leaving Home To Go To Work,Estimate|Total|12 00 a.m. to 4 59 a.m.,y,k,time_leave_to_work_00_05
 B08302_003E,B08302,Time Leaving Home To Go To Work,Estimate|Total|5 00 a.m. to 5 29 a.m.,y,m,B08302_004E_M
 B08302_004E,B08302,Time Leaving Home To Go To Work,Estimate|Total|5 30 a.m. to 5 59 a.m.,y,m,B08302_004E_M
-B08302_004E_M,B08302,Time Leaving Home To Go To Work,Estimate|Total|12 00 a.m. to 5 59 a.m.,n,k,time_leave_to_work_00_06
+B08302_004E_M,B08302,Time Leaving Home To Go To Work,Estimate|Total|12 00 a.m. to 5 59 a.m.,n,k,time_leave_to_work_05_06
 B08302_005E,B08302,Time Leaving Home To Go To Work,Estimate|Total|6 00 a.m. to 6 29 a.m.,y,m,B08302_006E_M
 B08302_006E,B08302,Time Leaving Home To Go To Work,Estimate|Total|6 30 a.m. to 6 59 a.m.,y,m,B08302_006E_M
 B08302_006E_M,B08302,Time Leaving Home To Go To Work,Estimate|Total|6 00 a.m. to 6 59 a.m.,n,k,time_leave_to_work_06_07
@@ -109,16 +109,16 @@ B08303_001E,B08303,Travel Time To Work,Estimate|Total,y,k,travel_time_tot
 B08303_002E,B08303,Travel Time To Work,Estimate|Total|Less than 5 minutes,y,m,B08303_004E_M
 B08303_003E,B08303,Travel Time To Work,Estimate|Total|5 to 9 minutes,y,m,B08303_004E_M
 B08303_004E,B08303,Travel Time To Work,Estimate|Total|10 to 14 minutes,y,m,B08303_004E_M
-B08303_004E_M,B08303,Travel Time To Work,Estimate|Total|1less than 15 minutes,n,k,travel_time_00_15
+B08303_004E_M,B08303,Travel Time To Work,Estimate|Total|1less than 15 minutes,n,k,travel_time_00_14
 B08303_005E,B08303,Travel Time To Work,Estimate|Total|15 to 19 minutes,y,m,B08303_007E_M
 B08303_006E,B08303,Travel Time To Work,Estimate|Total|20 to 24 minutes,y,m,B08303_007E_M
 B08303_007E,B08303,Travel Time To Work,Estimate|Total|25 to 29 minutes,y,m,B08303_007E_M
-B08303_007E_M,B08303,Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,travel_time_15_30
+B08303_007E_M,B08303,Travel Time To Work,Estimate|Total|15 to 29 minutes,n,k,travel_time_15_29
 B08303_008E,B08303,Travel Time To Work,Estimate|Total|30 to 34 minutes,y,m,B08303_011E_M
 B08303_009E,B08303,Travel Time To Work,Estimate|Total|35 to 39 minutes,y,m,B08303_011E_M
 B08303_010E,B08303,Travel Time To Work,Estimate|Total|40 to 44 minutes,y,m,B08303_011E_M
 B08303_011E,B08303,Travel Time To Work,Estimate|Total|45 to 59 minutes,y,m,B08303_011E_M
-B08303_011E_M,B08303,Travel Time To Work,Estimate|Total|30 to 59 minutes,n,k,travel_time_30_60
+B08303_011E_M,B08303,Travel Time To Work,Estimate|Total|30 to 59 minutes,n,k,travel_time_30_59
 B08303_012E,B08303,Travel Time To Work,Estimate|Total|60 to 89 minutes,y,m,B08303_013E_M
 B08303_013E,B08303,Travel Time To Work,Estimate|Total|90 or more minutes,y,m,B08303_013E_M
 B08303_013E_M,B08303,Travel Time To Work,Estimate|Total|60 or more minutes,n,k,travel_time_60_plus
@@ -143,59 +143,60 @@ B19001_015E,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adj
 B19001_016E,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),"Estimate|Total|$150,000 to $199,999",y,m,B19001_016E_M
 B19001_016E_M,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),"Estimate|Total|$100,000 to $199,999",n,k,house_ann_inc_100_200
 B19001_017E,B19001,Household Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),"Estimate|Total|$200,000 or more",y,k,house_ann_inc_200_plus
-B19051_001E,B19051,Earnings In The Past 12 Months For Households,Estimate|Total,y,k,house_earnings_tot
+B19051_001E,B19051,Earnings In The Past 12 Months For Households,Estimate|Total,y,m,B19051_000E
+B19051_000E,B19051,Earnings In The Past 12 Months For Households,Estimate|Total|Households,n,k,house_earnings_tot
 B19051_001E_R,B19051,Earnings In The Past 12 Months For Households,Estimate|Pct households with Earnings,n,k,house_earnings_pct
 B19051_002E,B19051,Earnings In The Past 12 Months For Households,Estimate|Total|With earnings,y,k,house_earnings_yes
 B19051_003E,B19051,Earnings In The Past 12 Months For Households,Estimate|Total|No earnings,y,k,house_earnings_no
-B19052_001E,B19052,Wage Or Salary Income In The Past 12 Months For Households,Estimate|Total,y,k,house_wage_sal_tot
+B19052_001E,B19052,Wage Or Salary Income In The Past 12 Months For Households,Estimate|Total,y,x,
 B19052_001E_R,B19052,Wage Or Salary Income In The Past 12 Months For Households,Estimate|Pct households with Wage or Salary Income,n,k,house_wage_sal_pct
 B19052_002E,B19052,Wage Or Salary Income In The Past 12 Months For Households,Estimate|Total|With wage or salary income,y,k,house_wage_sal_yes
 B19052_003E,B19052,Wage Or Salary Income In The Past 12 Months For Households,Estimate|Total|No wage or salary income,y,k,house_wage_sal_no
-B19055_001E,B19055,Social Security Income In The Past 12 Months For Households,Estimate|Total,y,k,house_soc_sec_tot
+B19055_001E,B19055,Social Security Income In The Past 12 Months For Households,Estimate|Total,y,x,
 B19055_001E_R,B19055,Social Security Income In The Past 12 Months For Households,Estimate|Pct households with Social Security Income,n,k,house_soc_sec_pct
 B19055_002E,B19055,Social Security Income In The Past 12 Months For Households,Estimate|Total|With Social Security income,y,k,house_soc_sec_yes
 B19055_003E,B19055,Social Security Income In The Past 12 Months For Households,Estimate|Total|No Social Security income,y,k,house_soc_sec_no
-B19056_001E,B19056,Supplemental Security Income (Ssi) In The Past 12 Months For Households,Estimate|Total,y,k,house_sup_sec_tot
+B19056_001E,B19056,Supplemental Security Income (Ssi) In The Past 12 Months For Households,Estimate|Total,y,x,
 B19056_001E_R,B19056,Supplemental Security Income (Ssi) In The Past 12 Months For Households,Estimate|Pct households with Supplemental Security Income,n,k,house_sup_sec_pct
 B19056_002E,B19056,Supplemental Security Income (Ssi) In The Past 12 Months For Households,Estimate|Total|With Supplemental Security Income (SSI),y,k,house_sup_sec_yes
 B19056_003E,B19056,Supplemental Security Income (Ssi) In The Past 12 Months For Households,Estimate|Total|No Supplemental Security Income (SSI),y,k,house_sup_sec_no
-B19057_001E,B19057,Public Assistance Income In The Past 12 Months For Households,Estimate|Total,y,k,house_pub_assist_tot
+B19057_001E,B19057,Public Assistance Income In The Past 12 Months For Households,Estimate|Total,y,x,
 B19057_001E_R,B19057,Public Assistance Income In The Past 12 Months For Households,Estimate|Pct households with Public Assistance Income,n,k,house_pub_assist_pct
 B19057_002E,B19057,Public Assistance Income In The Past 12 Months For Households,Estimate|Total|With public assistance income,y,k,house_pub_assist_yes
 B19057_003E,B19057,Public Assistance Income In The Past 12 Months For Households,Estimate|Total|No public assistance income,y,k,house_pub_assist_no
-B19058_001E,B19058,Public Assistance Income Or Food Stamps/Snap In The Past 12 Months For Households,Estimate|Total,y,k,house_pub_snap_tot
+B19058_001E,B19058,Public Assistance Income Or Food Stamps/Snap In The Past 12 Months For Households,Estimate|Total,y,x,
 B19058_001E_R,B19058,Public Assistance Income Or Food Stamps/Snap In The Past 12 Months For Households,Estimate|Pct households with Public Assistance Income or Food Stamps,n,k,house_pub_snap_pct
 B19058_002E,B19058,Public Assistance Income Or Food Stamps/Snap In The Past 12 Months For Households,Estimate|Total|With cash public assistance or Food Stamps/SNAP,y,k,house_pub_snap_yes
 B19058_003E,B19058,Public Assistance Income Or Food Stamps/Snap In The Past 12 Months For Households,Estimate|Total|No cash public assistance or Food Stamps/SNAP,y,k,house_pub_snap_no
-B19059_001E,B19059,Retirement Income In The Past 12 Months For Households,Estimate|Total,y,k,house_retire_tot
+B19059_001E,B19059,Retirement Income In The Past 12 Months For Households,Estimate|Total,y,x,
 B19059_001E_R,B19059,Retirement Income In The Past 12 Months For Households,Estimate|Pct households with Retirement Income,n,k,house_retire_pct
 B19059_002E,B19059,Retirement Income In The Past 12 Months For Households,Estimate|Total|With retirement income,y,k,house_retire_yes
 B19059_003E,B19059,Retirement Income In The Past 12 Months For Households,Estimate|Total|No retirement income,y,k,house_retire_no
 B19301_001E,B19301,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,k,ann_per_cap_inc
 B19301A_001E,B19301A,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (White Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,k,ann_per_cap_inc_w
 B19301B_001E,B19301B,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Black Or African American Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,k,ann_per_cap_inc_b
-B19301C_001E,B19301C,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (American Indian And Alaska Native Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,ann_per_cap_inc_othr
+B19301C_001E,B19301C,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (American Indian And Alaska Native Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,
 B19301D_001E,B19301D,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Asian Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,k,ann_per_cap_inc_a
-B19301E_001E,B19301E,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Native Hawaiian And Other Pacific Islander Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,ann_per_cap_inc_othr
-B19301F_001E,B19301F,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Some Other Race Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,ann_per_cap_inc_othr
-B19301G_001E,B19301G,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Two Or More Races),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,ann_per_cap_inc_othr
-B19301H_001E,B19301H,"Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (White Alone, Not Hispanic Or Latino)",Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,ann_per_cap_inc_othr
+B19301E_001E,B19301E,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Native Hawaiian And Other Pacific Islander Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,
+B19301F_001E,B19301F,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Some Other Race Alone),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,
+B19301G_001E,B19301G,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Two Or More Races),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,
+B19301H_001E,B19301H,"Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (White Alone, Not Hispanic Or Latino)",Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,x,
 B19301I_001E,B19301I,Per Capita Income In The Past 12 Months (In 2018 Inflation-Adjusted Dollars) (Hispanic Or Latino),Estimate|Per capita income in the past 12 months (in 2018 inflation-adjusted dollars),y,k,ann_per_cap_inc_h
 B24080_001E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total,y,k,workers_total
 B24080_002E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male,y,k,workers_m
 B24080_003E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Private for-profit wage and salary workers,y,k,workers_m_profit
-B24080_003E_03,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Private for-profit wage and salary workers,y,k,workers_m_profit
+B24080_001E_03,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Private for-profit wage and salary workers,n,k,workers_a_profit
 B24080_006E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Private not-for-profit wage and salary workers,y,k,wokers_m_non_profit
-B24080_006E_06,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Private not-for-profit wage and salary workers,y,k,wokers_m_non_profit
+B24080_001E_06,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Private not-for-profit wage and salary workers,n,k,wokers_a_non_profit
 B24080_007E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Local government workers,y,m,B24080_009E_M
 B24080_008E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|State government workers,y,m,B24080_009E_M
 B24080_009E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Federal government workers,y,m,B24080_009E_M
-B24080_009E_09,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Government workers,n,k,workers_m_gvt
+B24080_001E_09,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Government workers,n,k,workers_a_gvt
 B24080_009E_M,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Government workers,n,k,workers_m_gvt
 B24080_010E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Self-employed in own not incorporated business workers,y,k,workers_m_noncorp_self
-B24080_010E_10,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Self-employed in own not incorporated business workers,y,k,workers_m_noncorp_self
+B24080_001E_10,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Self-employed in own not incorporated business workers,n,k,workers_a_noncorp_self
 B24080_011E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Male|Unpaid family workers,y,k,workers_m_unpay_fam
-B24080_011E_11,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Unpaid family workers,y,k,workers_m_unpay_fam
+B24080_001E_11,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Unpaid family workers,n,k,workers_a_unpay_fam
 B24080_012E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Female,y,k,workers_f
 B24080_013E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Female|Private for-profit wage and salary workers,y,k,workers_f_for_profit
 B24080_016E,B24080,Sex By Class Of Worker For The Civilian Employed Population 16 Years And Over,Estimate|Total|Female|Private not-for-profit wage and salary workers,y,k,wokers_f_non_profit
