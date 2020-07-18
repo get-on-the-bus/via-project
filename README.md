@@ -26,6 +26,14 @@ We combined VIA's Civtech datasets and census data to create maps combining VIA 
 
 ### Meet Our [Team](https://get-on-the-bus.github.io/meet-our-team)
 
-### Check out Our [Tableau Maps](https://public.tableau.com/profile/get.on.the.bus#!/vizhome/Bexar_census_maps_15950347850730/EarnLess200FPL)
+### Interact with Our [Tableau Maps](https://get-on-the-bus.github.io/maps)
 
-### Check out Our [Interactive Google Map](https://www.google.com/maps/d/u/0/viewer?mid=1Qzch2ho0XXCnuRHGbGskqYb21I6T5rfH&ll=29.39511534588639%2C-98.47608225&z=10)
+### Explore Our [Interactive Google Map](https://www.google.com/maps/d/u/0/viewer?mid=1Qzch2ho0XXCnuRHGbGskqYb21I6T5rfH&ll=29.39511534588639%2C-98.47608225&z=10)
+
+
+### Access Our [Notebooks](https://github.com/get-on-the-bus/via-project)
+
+
+### Understand Our [Process](https://get-on-the-bus.github.io/ourprocess)
+
+### Use Our [Data Sources](https://get-on-the-bus.github.io/datasources)
